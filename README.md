@@ -1,5 +1,5 @@
 # Angular-OTP
-For a concise description of your Angular OTP logAngular OTP Login: A secure, Angular-based login flow using OTP verification. Includes "send-otp" and "verify-otp" components with Angular Material UI. Ideal for learning OTP authentication.
+A secure, Angular-based login flow using OTP verification. Includes "send-otp" and "verify-otp" components with Angular Material UI. Ideal for learning OTP authentication.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.

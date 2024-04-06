@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-title>Send OTP</mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="otpForm" (ngSubmit)="onSendOTP()">
+      <mat-form-field appearance="fill">
+        <mat-label>Phone Number</mat-label>
+        <input matInput formControlName="phone">
+        <mat-error *ngIf="otpForm.get('phone')?.invalid">Valid phone number is required</mat-error>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit" [disabled]="!otpForm.valid">Send OTP</button>
+    </form>
+  </mat-card-content>
+</mat-card>
